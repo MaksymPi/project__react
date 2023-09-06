@@ -2,7 +2,7 @@ import React from 'react'
 
 import './CostDate.css'
 
-function CostDate(props) {
+const CostDate = (props) => {
     
     const month = props.date.toLocaleString('en-GB', { month: "long" });
     const year = props.date.getFullYear();
