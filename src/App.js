@@ -1,8 +1,6 @@
 
 import Costs from './components/Costs/Costs'
-
-
-import React from 'react'
+import NewCost from './components/NewCost/NewCost'
 
  const App = () => {
 
@@ -26,6 +24,7 @@ import React from 'react'
 
   return (
     <>
+    <NewCost/>
       <Costs costs={costs}/>
     </>
   )
